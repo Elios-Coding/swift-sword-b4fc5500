@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "swift_sword",
+  "version": "${version}",
+  "name": "Swift Sword",
+  "description": "Adds a sword that grants a temporary speed boost when right-clicked.",
+  "authors": [
+    "ModForge AI"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.swift_sword.SwiftSword"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
